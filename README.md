@@ -33,12 +33,12 @@ terraform apply
 .
 project_root/
 ├── app/
-│   ├── app.py                 # Main Flask application
-│   ├── timezone.py            # Timezone mappings and configurations
-│   ├── requirements.txt       # Python dependencies
+│   ├── app.py                # Flask application
+│   ├── timezone.py           # Timezone mappings and configurations
+│   ├── requirements.txt      # Python dependencies
 │   └── Dockerfile            # Container configuration
 ├── terraform/
-│   ├── main.tf               # Main Terraform configuration
+│   ├── main.tf               # Terraform configuration
 │   ├── providers.tf          # Provider configurations
 │   ├── variables.tf          # Variable definitions
 │   └── outputs.tf            # Output definitions
