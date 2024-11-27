@@ -6,7 +6,7 @@ A containerized Flask REST API that provides current time information across dif
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/currenttime-api.git
+git clone https://github.com/siddiqitaha/currenttime-api.git
 cd currenttime-api
 
 # Build the Docker image
