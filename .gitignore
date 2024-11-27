@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform
+/terraform/*.tfvars
+/terraform/*.tfvars.json
+/terraform/.terraform/
+/terraform/terraform.tfstate
+/terraform/terraform.tfstate.backup
+/terraform/.terraform.lock.hcl
+/terraform/crash.log

@@ -1,0 +1,569 @@
+Abidjan: Africa/Abidjan
+Accra: Africa/Accra
+Addis Ababa: Africa/Addis_Ababa
+Algiers: Africa/Algiers
+Asmara: Africa/Asmara
+Asmera: Africa/Asmera
+Bamako: Africa/Bamako
+Bangui: Africa/Bangui
+Banjul: Africa/Banjul
+Bissau: Africa/Bissau
+Blantyre: Africa/Blantyre
+Brazzaville: Africa/Brazzaville
+Bujumbura: Africa/Bujumbura
+Cairo: Africa/Cairo
+Casablanca: Africa/Casablanca
+Ceuta: Africa/Ceuta
+Conakry: Africa/Conakry
+Dakar: Africa/Dakar
+Dar es Salaam: Africa/Dar_es_Salaam
+Djibouti: Africa/Djibouti
+Douala: Africa/Douala
+El Aaiun: Africa/El_Aaiun
+Freetown: Africa/Freetown
+Gaborone: Africa/Gaborone
+Harare: Africa/Harare
+Johannesburg: Africa/Johannesburg
+Juba: Africa/Juba
+Kampala: Africa/Kampala
+Khartoum: Africa/Khartoum
+Kigali: Africa/Kigali
+Kinshasa: Africa/Kinshasa
+Lagos: Africa/Lagos
+Libreville: Africa/Libreville
+Lome: Africa/Lome
+Luanda: Africa/Luanda
+Lubumbashi: Africa/Lubumbashi
+Lusaka: Africa/Lusaka
+Malabo: Africa/Malabo
+Maputo: Africa/Maputo
+Maseru: Africa/Maseru
+Mbabane: Africa/Mbabane
+Mogadishu: Africa/Mogadishu
+Monrovia: Africa/Monrovia
+Nairobi: Africa/Nairobi
+Ndjamena: Africa/Ndjamena
+Niamey: Africa/Niamey
+Nouakchott: Africa/Nouakchott
+Ouagadougou: Africa/Ouagadougou
+Porto-Novo: Africa/Porto-Novo
+Sao Tome: Africa/Sao_Tome
+Timbuktu: Africa/Timbuktu
+Tripoli: Africa/Tripoli
+Tunis: Africa/Tunis
+Windhoek: Africa/Windhoek
+Adak: America/Adak
+Anchorage: America/Anchorage
+Anguilla: America/Anguilla
+Antigua: America/Antigua
+Araguaina: America/Araguaina
+Buenos Aires: America/Buenos_Aires
+Catamarca: America/Catamarca
+ComodRivadavia: America/Argentina/ComodRivadavia
+Cordoba: America/Cordoba
+Jujuy: America/Jujuy
+La Rioja: America/Argentina/La_Rioja
+Mendoza: America/Mendoza
+Rio Gallegos: America/Argentina/Rio_Gallegos
+Salta: America/Argentina/Salta
+San Juan: America/Argentina/San_Juan
+San Luis: America/Argentina/San_Luis
+Tucuman: America/Argentina/Tucuman
+Ushuaia: America/Argentina/Ushuaia
+Aruba: America/Aruba
+Asuncion: America/Asuncion
+Atikokan: America/Atikokan
+Atka: America/Atka
+Bahia: America/Bahia
+Bahia Banderas: America/Bahia_Banderas
+Barbados: America/Barbados
+Belem: America/Belem
+Belize: America/Belize
+Blanc-Sablon: America/Blanc-Sablon
+Boa Vista: America/Boa_Vista
+Bogota: America/Bogota
+Boise: America/Boise
+Cambridge Bay: America/Cambridge_Bay
+Campo Grande: America/Campo_Grande
+Cancun: America/Cancun
+Caracas: America/Caracas
+Cayenne: America/Cayenne
+Cayman: America/Cayman
+Chicago: America/Chicago
+Chihuahua: America/Chihuahua
+Ciudad Juarez: America/Ciudad_Juarez
+Coral Harbour: America/Coral_Harbour
+Costa Rica: America/Costa_Rica
+Creston: America/Creston
+Cuiaba: America/Cuiaba
+Curacao: America/Curacao
+Danmarkshavn: America/Danmarkshavn
+Dawson: America/Dawson
+Dawson Creek: America/Dawson_Creek
+Denver: America/Denver
+Detroit: America/Detroit
+Dominica: America/Dominica
+Edmonton: America/Edmonton
+Eirunepe: America/Eirunepe
+El Salvador: America/El_Salvador
+Ensenada: America/Ensenada
+Fort Nelson: America/Fort_Nelson
+Fort Wayne: America/Fort_Wayne
+Fortaleza: America/Fortaleza
+Glace Bay: America/Glace_Bay
+Godthab: America/Godthab
+Goose Bay: America/Goose_Bay
+Grand Turk: America/Grand_Turk
+Grenada: America/Grenada
+Guadeloupe: America/Guadeloupe
+Guatemala: America/Guatemala
+Guayaquil: America/Guayaquil
+Guyana: America/Guyana
+Halifax: America/Halifax
+Havana: America/Havana
+Hermosillo: America/Hermosillo
+Indianapolis: America/Indianapolis
+Knox: America/Indiana/Knox
+Marengo: America/Indiana/Marengo
+Petersburg: America/Indiana/Petersburg
+Tell City: America/Indiana/Tell_City
+Vevay: America/Indiana/Vevay
+Vincennes: America/Indiana/Vincennes
+Winamac: America/Indiana/Winamac
+Inuvik: America/Inuvik
+Iqaluit: America/Iqaluit
+Jamaica: Jamaica
+Juneau: America/Juneau
+Louisville: America/Louisville
+Monticello: America/Kentucky/Monticello
+Knox IN: America/Knox_IN
+Kralendijk: America/Kralendijk
+La Paz: America/La_Paz
+Lima: America/Lima
+Los Angeles: America/Los_Angeles
+Lower Princes: America/Lower_Princes
+Maceio: America/Maceio
+Managua: America/Managua
+Manaus: America/Manaus
+Marigot: America/Marigot
+Martinique: America/Martinique
+Matamoros: America/Matamoros
+Mazatlan: America/Mazatlan
+Menominee: America/Menominee
+Merida: America/Merida
+Metlakatla: America/Metlakatla
+Mexico City: America/Mexico_City
+Miquelon: America/Miquelon
+Moncton: America/Moncton
+Monterrey: America/Monterrey
+Montevideo: America/Montevideo
+Montreal: America/Montreal
+Montserrat: America/Montserrat
+Nassau: America/Nassau
+New York: America/New_York
+Nipigon: America/Nipigon
+Nome: America/Nome
+Noronha: America/Noronha
+Beulah: America/North_Dakota/Beulah
+Center: America/North_Dakota/Center
+New Salem: America/North_Dakota/New_Salem
+Nuuk: America/Nuuk
+Ojinaga: America/Ojinaga
+Panama: America/Panama
+Pangnirtung: America/Pangnirtung
+Paramaribo: America/Paramaribo
+Phoenix: America/Phoenix
+Port-au-Prince: America/Port-au-Prince
+Port of Spain: America/Port_of_Spain
+Porto Acre: America/Porto_Acre
+Porto Velho: America/Porto_Velho
+Puerto Rico: America/Puerto_Rico
+Punta Arenas: America/Punta_Arenas
+Rainy River: America/Rainy_River
+Rankin Inlet: America/Rankin_Inlet
+Recife: America/Recife
+Regina: America/Regina
+Resolute: America/Resolute
+Rio Branco: America/Rio_Branco
+Rosario: America/Rosario
+Santa Isabel: America/Santa_Isabel
+Santarem: America/Santarem
+Santiago: America/Santiago
+Santo Domingo: America/Santo_Domingo
+Sao Paulo: America/Sao_Paulo
+Scoresbysund: America/Scoresbysund
+Shiprock: America/Shiprock
+Sitka: America/Sitka
+St Barthelemy: America/St_Barthelemy
+St Johns: America/St_Johns
+St Kitts: America/St_Kitts
+St Lucia: America/St_Lucia
+St Thomas: America/St_Thomas
+St Vincent: America/St_Vincent
+Swift Current: America/Swift_Current
+Tegucigalpa: America/Tegucigalpa
+Thule: America/Thule
+Thunder Bay: America/Thunder_Bay
+Tijuana: America/Tijuana
+Toronto: America/Toronto
+Tortola: America/Tortola
+Vancouver: America/Vancouver
+Virgin: America/Virgin
+Whitehorse: America/Whitehorse
+Winnipeg: America/Winnipeg
+Yakutat: America/Yakutat
+Yellowknife: America/Yellowknife
+Casey: Antarctica/Casey
+Davis: Antarctica/Davis
+DumontDUrville: Antarctica/DumontDUrville
+Macquarie: Antarctica/Macquarie
+Mawson: Antarctica/Mawson
+McMurdo: Antarctica/McMurdo
+Palmer: Antarctica/Palmer
+Rothera: Antarctica/Rothera
+South Pole: Antarctica/South_Pole
+Syowa: Antarctica/Syowa
+Troll: Antarctica/Troll
+Vostok: Antarctica/Vostok
+Longyearbyen: Arctic/Longyearbyen
+Aden: Asia/Aden
+Almaty: Asia/Almaty
+Amman: Asia/Amman
+Anadyr: Asia/Anadyr
+Aqtau: Asia/Aqtau
+Aqtobe: Asia/Aqtobe
+Ashgabat: Asia/Ashgabat
+Ashkhabad: Asia/Ashkhabad
+Atyrau: Asia/Atyrau
+Baghdad: Asia/Baghdad
+Bahrain: Asia/Bahrain
+Baku: Asia/Baku
+Bangkok: Asia/Bangkok
+Barnaul: Asia/Barnaul
+Beirut: Asia/Beirut
+Bishkek: Asia/Bishkek
+Brunei: Asia/Brunei
+Calcutta: Asia/Calcutta
+Chita: Asia/Chita
+Choibalsan: Asia/Choibalsan
+Chongqing: Asia/Chongqing
+Chungking: Asia/Chungking
+Colombo: Asia/Colombo
+Dacca: Asia/Dacca
+Damascus: Asia/Damascus
+Dhaka: Asia/Dhaka
+Dili: Asia/Dili
+Dubai: Asia/Dubai
+Dushanbe: Asia/Dushanbe
+Famagusta: Asia/Famagusta
+Gaza: Asia/Gaza
+Harbin: Asia/Harbin
+Hebron: Asia/Hebron
+Ho Chi Minh: Asia/Ho_Chi_Minh
+Hong Kong: Asia/Hong_Kong
+Hovd: Asia/Hovd
+Irkutsk: Asia/Irkutsk
+Istanbul: Europe/Istanbul
+Jakarta: Asia/Jakarta
+Jayapura: Asia/Jayapura
+Jerusalem: Asia/Jerusalem
+Kabul: Asia/Kabul
+Kamchatka: Asia/Kamchatka
+Karachi: Asia/Karachi
+Kashgar: Asia/Kashgar
+Kathmandu: Asia/Kathmandu
+Katmandu: Asia/Katmandu
+Khandyga: Asia/Khandyga
+Kolkata: Asia/Kolkata
+Krasnoyarsk: Asia/Krasnoyarsk
+Kuala Lumpur: Asia/Kuala_Lumpur
+Kuching: Asia/Kuching
+Kuwait: Asia/Kuwait
+Macao: Asia/Macao
+Macau: Asia/Macau
+Magadan: Asia/Magadan
+Makassar: Asia/Makassar
+Manila: Asia/Manila
+Muscat: Asia/Muscat
+Nicosia: Europe/Nicosia
+Novokuznetsk: Asia/Novokuznetsk
+Novosibirsk: Asia/Novosibirsk
+Omsk: Asia/Omsk
+Oral: Asia/Oral
+Phnom Penh: Asia/Phnom_Penh
+Pontianak: Asia/Pontianak
+Pyongyang: Asia/Pyongyang
+Qatar: Asia/Qatar
+Qostanay: Asia/Qostanay
+Qyzylorda: Asia/Qyzylorda
+Rangoon: Asia/Rangoon
+Riyadh: Asia/Riyadh
+Saigon: Asia/Saigon
+Sakhalin: Asia/Sakhalin
+Samarkand: Asia/Samarkand
+Seoul: Asia/Seoul
+Shanghai: Asia/Shanghai
+Singapore: Singapore
+Srednekolymsk: Asia/Srednekolymsk
+Taipei: Asia/Taipei
+Tashkent: Asia/Tashkent
+Tbilisi: Asia/Tbilisi
+Tehran: Asia/Tehran
+Tel Aviv: Asia/Tel_Aviv
+Thimbu: Asia/Thimbu
+Thimphu: Asia/Thimphu
+Tokyo: Asia/Tokyo
+Tomsk: Asia/Tomsk
+Ujung Pandang: Asia/Ujung_Pandang
+Ulaanbaatar: Asia/Ulaanbaatar
+Ulan Bator: Asia/Ulan_Bator
+Urumqi: Asia/Urumqi
+Ust-Nera: Asia/Ust-Nera
+Vientiane: Asia/Vientiane
+Vladivostok: Asia/Vladivostok
+Yakutsk: Asia/Yakutsk
+Yangon: Asia/Yangon
+Yekaterinburg: Asia/Yekaterinburg
+Yerevan: Asia/Yerevan
+Azores: Atlantic/Azores
+Bermuda: Atlantic/Bermuda
+Canary: Atlantic/Canary
+Cape Verde: Atlantic/Cape_Verde
+Faeroe: Atlantic/Faeroe
+Faroe: Atlantic/Faroe
+Jan Mayen: Atlantic/Jan_Mayen
+Madeira: Atlantic/Madeira
+Reykjavik: Atlantic/Reykjavik
+South Georgia: Atlantic/South_Georgia
+St Helena: Atlantic/St_Helena
+Stanley: Atlantic/Stanley
+ACT: Australia/ACT
+Adelaide: Australia/Adelaide
+Brisbane: Australia/Brisbane
+Broken Hill: Australia/Broken_Hill
+Canberra: Australia/Canberra
+Currie: Australia/Currie
+Darwin: Australia/Darwin
+Eucla: Australia/Eucla
+Hobart: Australia/Hobart
+LHI: Australia/LHI
+Lindeman: Australia/Lindeman
+Lord Howe: Australia/Lord_Howe
+Melbourne: Australia/Melbourne
+NSW: Australia/NSW
+North: Australia/North
+Perth: Australia/Perth
+Queensland: Australia/Queensland
+South: Australia/South
+Sydney: Australia/Sydney
+Tasmania: Australia/Tasmania
+Victoria: Australia/Victoria
+West: Brazil/West
+Yancowinna: Australia/Yancowinna
+Acre: Brazil/Acre
+DeNoronha: Brazil/DeNoronha
+East: Brazil/East
+CET: CET
+CST6CDT: CST6CDT
+Atlantic: Canada/Atlantic
+Central: US/Central
+Eastern: US/Eastern
+Mountain: US/Mountain
+Newfoundland: Canada/Newfoundland
+Pacific: US/Pacific
+Saskatchewan: Canada/Saskatchewan
+Yukon: Canada/Yukon
+Continental: Chile/Continental
+EasterIsland: Chile/EasterIsland
+Cuba: Cuba
+EET: EET
+EST: EST
+EST5EDT: EST5EDT
+Egypt: Egypt
+Eire: Eire
+GMT: GMT
+GMT+0: GMT+0
+GMT+1: Etc/GMT+1
+GMT+10: Etc/GMT+10
+GMT+11: Etc/GMT+11
+GMT+12: Etc/GMT+12
+GMT+2: Etc/GMT+2
+GMT+3: Etc/GMT+3
+GMT+4: Etc/GMT+4
+GMT+5: Etc/GMT+5
+GMT+6: Etc/GMT+6
+GMT+7: Etc/GMT+7
+GMT+8: Etc/GMT+8
+GMT+9: Etc/GMT+9
+GMT-0: GMT-0
+GMT-1: Etc/GMT-1
+GMT-10: Etc/GMT-10
+GMT-11: Etc/GMT-11
+GMT-12: Etc/GMT-12
+GMT-13: Etc/GMT-13
+GMT-14: Etc/GMT-14
+GMT-2: Etc/GMT-2
+GMT-3: Etc/GMT-3
+GMT-4: Etc/GMT-4
+GMT-5: Etc/GMT-5
+GMT-6: Etc/GMT-6
+GMT-7: Etc/GMT-7
+GMT-8: Etc/GMT-8
+GMT-9: Etc/GMT-9
+GMT0: GMT0
+Greenwich: Greenwich
+UCT: UCT
+UTC: UTC
+Universal: Universal
+Zulu: Zulu
+Amsterdam: Europe/Amsterdam
+Andorra: Europe/Andorra
+Astrakhan: Europe/Astrakhan
+Athens: Europe/Athens
+Belfast: Europe/Belfast
+Belgrade: Europe/Belgrade
+Berlin: Europe/Berlin
+Bratislava: Europe/Bratislava
+Brussels: Europe/Brussels
+Bucharest: Europe/Bucharest
+Budapest: Europe/Budapest
+Busingen: Europe/Busingen
+Chisinau: Europe/Chisinau
+Copenhagen: Europe/Copenhagen
+Dublin: Europe/Dublin
+Gibraltar: Europe/Gibraltar
+Guernsey: Europe/Guernsey
+Helsinki: Europe/Helsinki
+Isle of Man: Europe/Isle_of_Man
+Jersey: Europe/Jersey
+Kaliningrad: Europe/Kaliningrad
+Kiev: Europe/Kiev
+Kirov: Europe/Kirov
+Kyiv: Europe/Kyiv
+Lisbon: Europe/Lisbon
+Ljubljana: Europe/Ljubljana
+London: Europe/London
+Luxembourg: Europe/Luxembourg
+Madrid: Europe/Madrid
+Malta: Europe/Malta
+Mariehamn: Europe/Mariehamn
+Minsk: Europe/Minsk
+Monaco: Europe/Monaco
+Moscow: Europe/Moscow
+Oslo: Europe/Oslo
+Paris: Europe/Paris
+Podgorica: Europe/Podgorica
+Prague: Europe/Prague
+Riga: Europe/Riga
+Rome: Europe/Rome
+Samara: Europe/Samara
+San Marino: Europe/San_Marino
+Sarajevo: Europe/Sarajevo
+Saratov: Europe/Saratov
+Simferopol: Europe/Simferopol
+Skopje: Europe/Skopje
+Sofia: Europe/Sofia
+Stockholm: Europe/Stockholm
+Tallinn: Europe/Tallinn
+Tirane: Europe/Tirane
+Tiraspol: Europe/Tiraspol
+Ulyanovsk: Europe/Ulyanovsk
+Uzhgorod: Europe/Uzhgorod
+Vaduz: Europe/Vaduz
+Vatican: Europe/Vatican
+Vienna: Europe/Vienna
+Vilnius: Europe/Vilnius
+Volgograd: Europe/Volgograd
+Warsaw: Europe/Warsaw
+Zagreb: Europe/Zagreb
+Zaporozhye: Europe/Zaporozhye
+Zurich: Europe/Zurich
+GB: GB
+GB-Eire: GB-Eire
+HST: HST
+Hongkong: Hongkong
+Iceland: Iceland
+Antananarivo: Indian/Antananarivo
+Chagos: Indian/Chagos
+Christmas: Indian/Christmas
+Cocos: Indian/Cocos
+Comoro: Indian/Comoro
+Kerguelen: Indian/Kerguelen
+Mahe: Indian/Mahe
+Maldives: Indian/Maldives
+Mauritius: Indian/Mauritius
+Mayotte: Indian/Mayotte
+Reunion: Indian/Reunion
+Iran: Iran
+Israel: Israel
+Japan: Japan
+Kwajalein: Pacific/Kwajalein
+Libya: Libya
+MET: MET
+MST: MST
+MST7MDT: MST7MDT
+BajaNorte: Mexico/BajaNorte
+BajaSur: Mexico/BajaSur
+General: Mexico/General
+NZ: NZ
+NZ-CHAT: NZ-CHAT
+Navajo: Navajo
+PRC: PRC
+PST8PDT: PST8PDT
+Apia: Pacific/Apia
+Auckland: Pacific/Auckland
+Bougainville: Pacific/Bougainville
+Chatham: Pacific/Chatham
+Chuuk: Pacific/Chuuk
+Easter: Pacific/Easter
+Efate: Pacific/Efate
+Enderbury: Pacific/Enderbury
+Fakaofo: Pacific/Fakaofo
+Fiji: Pacific/Fiji
+Funafuti: Pacific/Funafuti
+Galapagos: Pacific/Galapagos
+Gambier: Pacific/Gambier
+Guadalcanal: Pacific/Guadalcanal
+Guam: Pacific/Guam
+Honolulu: Pacific/Honolulu
+Johnston: Pacific/Johnston
+Kanton: Pacific/Kanton
+Kiritimati: Pacific/Kiritimati
+Kosrae: Pacific/Kosrae
+Majuro: Pacific/Majuro
+Marquesas: Pacific/Marquesas
+Midway: Pacific/Midway
+Nauru: Pacific/Nauru
+Niue: Pacific/Niue
+Norfolk: Pacific/Norfolk
+Noumea: Pacific/Noumea
+Pago Pago: Pacific/Pago_Pago
+Palau: Pacific/Palau
+Pitcairn: Pacific/Pitcairn
+Pohnpei: Pacific/Pohnpei
+Ponape: Pacific/Ponape
+Port Moresby: Pacific/Port_Moresby
+Rarotonga: Pacific/Rarotonga
+Saipan: Pacific/Saipan
+Samoa: US/Samoa
+Tahiti: Pacific/Tahiti
+Tarawa: Pacific/Tarawa
+Tongatapu: Pacific/Tongatapu
+Truk: Pacific/Truk
+Wake: Pacific/Wake
+Wallis: Pacific/Wallis
+Yap: Pacific/Yap
+Poland: Poland
+Portugal: Portugal
+ROC: ROC
+ROK: ROK
+Turkey: Turkey
+Alaska: US/Alaska
+Aleutian: US/Aleutian
+Arizona: US/Arizona
+East-Indiana: US/East-Indiana
+Hawaii: US/Hawaii
+Indiana-Starke: US/Indiana-Starke
+Michigan: US/Michigan
+W-SU: W-SU
+WET: WET
