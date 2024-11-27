@@ -161,6 +161,7 @@ pytz
    terraform init
    terraform plan
    terraform apply
+    "Enter Subscription ID"
    ```
 
 3. **Verify Deployment**:
