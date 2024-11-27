@@ -7,16 +7,13 @@ A containerized Flask REST API that provides current time information across dif
 ```bash
 # Clone the repository
 git clone https://github.com/siddiqitaha/currenttime-api.git
-cd currenttime-api
-
-# Build the Docker image
-docker build --platform linux/amd64 -t siddiqitaha/currenttime-flask-api:latest .
-docker push siddiqitaha/currenttime-flask-api:latest
+cd terraform
 
 # Deploy to AKS using Terraform
 terraform init
 terraform plan
 terraform apply
+    "Enter Subscription ID"
 ```
 
 ## Technology Stack
@@ -108,29 +105,9 @@ View pod logs:
 kubectl logs -l app=currenttime-flask-api
 ```
 
-## Troubleshooting
-
-Common issues and solutions:
-
-1. **ImagePullBackOff Error**:
-   ```bash
-   # Check pod status
-   kubectl describe pod <pod-name>
-   # Rebuild image for correct architecture
-   docker build --platform linux/amd64 -t siddiqitaha/currenttime-flask-api:latest .
-   ```
-
-2. **Service Not Accessible**:
-   ```bash
-   # Check service status
-   kubectl get services
-   # Check service endpoints
-   kubectl describe service currenttime-flask-api-service
-   ```
-
 ## Future Improvements
 
-- Add API documentation (Swagger/OpenAPI)
+- Add API documentation
 - Implement authentication
 - Add caching layer
 - Set up monitoring and alerting
@@ -141,11 +118,3 @@ Common issues and solutions:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
