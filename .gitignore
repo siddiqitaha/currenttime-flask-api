@@ -22,7 +22,7 @@ venv.bak/
 .idea/
 
 # Terraform
-/terraform/*.tfvars
+/terraform/*tfvars
 /terraform/*.tfvars.json
 /terraform/.terraform/
 /terraform/terraform.tfstate

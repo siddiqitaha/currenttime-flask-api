@@ -14,6 +14,12 @@ variable "location" {
 variable "resource_group_name" {
   description = "Resource group name"
   type        = string
-  default     = "currenttime-api-rg"
+  default     = "test-currenttime-api-rg"
 }
 
+variable "grafana_admin_password" {
+  description = "Grafana admin password"
+  type        = string
+  sensitive   = true
+  default     = "admin123"
+}

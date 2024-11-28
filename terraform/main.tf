@@ -13,7 +13,7 @@ resource "azurerm_kubernetes_cluster" "main" {
 
   default_node_pool {
     name       = "default"
-    node_count = 1 
+    node_count = 2
     vm_size    = "Standard_DS2_v2"
   }
 
@@ -30,7 +30,7 @@ provider "kubernetes" {
   cluster_ca_certificate = base64decode(azurerm_kubernetes_cluster.main.kube_config.0.cluster_ca_certificate)
 }
 
-# Kubernetes deployment
+# Flask API Deployment
 resource "kubernetes_deployment" "app" {
   metadata {
     name = "currenttime-flask-api"
@@ -40,7 +40,15 @@ resource "kubernetes_deployment" "app" {
   }
 
   spec {
-    replicas = 2  # Matching your existing deployment
+    replicas = 2
+
+    strategy {
+      type = "RollingUpdate"
+      rolling_update {
+        max_surge       = 1
+        max_unavailable = 0
+      }
+    }
 
     selector {
       match_labels = {
@@ -56,23 +64,50 @@ resource "kubernetes_deployment" "app" {
       }
 
       spec {
+        security_context {
+          run_as_non_root = true
+          run_as_user     = 1000
+          fs_group        = 2000
+        }
+
         container {
-          image = "siddiqitaha/currenttime-flask-api:latest"
+          image = "siddiqitaha/currenttime-flask-api:1.2v"
           name  = "currenttime-flask-api"
           
           port {
-            container_port = 80
+            container_port = 8080
+            name          = "http"
           }
 
           resources {
             limits = {
-              cpu    = "0.5"
-              memory = "512Mi"
-            }
-            requests = {
-              cpu    = "250m"
+              cpu    = "200m"
               memory = "256Mi"
             }
+            requests = {
+              cpu    = "100m"
+              memory = "128Mi"
+            }
+          }
+
+          liveness_probe {
+            http_get {
+              path = "/health"
+              port = "http"
+            }
+            initial_delay_seconds = 30
+            period_seconds       = 10
+            timeout_seconds     = 5
+            failure_threshold   = 3
+          }
+
+          readiness_probe {
+            http_get {
+              path = "/health"
+              port = "http"
+            }
+            initial_delay_seconds = 5
+            period_seconds       = 5
           }
         }
       }
@@ -80,10 +115,15 @@ resource "kubernetes_deployment" "app" {
   }
 }
 
-# Kubernetes service
+# Flask API Service
 resource "kubernetes_service" "app" {
   metadata {
     name = "currenttime-flask-api-service"
+    annotations = {
+      "prometheus.io/scrape" = "true"
+      "prometheus.io/port"   = "80"
+      "prometheus.io/path"   = "/metrics"
+    }
   }
   spec {
     selector = {
@@ -91,9 +131,63 @@ resource "kubernetes_service" "app" {
     }
     port {
       port        = 80
-      target_port = 80
+      target_port = 8080
+      name        = "http"
     }
     type = "LoadBalancer"
+  }
+}
+
+# Horizontal Pod Autoscaler
+resource "kubernetes_horizontal_pod_autoscaler_v2" "app" {
+  metadata {
+    name = "currenttime-flask-api-hpa"
+  }
+
+  spec {
+    scale_target_ref {
+      api_version = "apps/v1"
+      kind        = "Deployment"
+      name        = kubernetes_deployment.app.metadata[0].name
+    }
+
+    min_replicas = 2
+    max_replicas = 5
+
+    metric {
+      type = "Resource"
+      resource {
+        name = "cpu"
+        target {
+          type                = "Utilization"
+          average_utilization = 80
+        }
+      }
+    }
+  }
+}
+
+# Network Policy
+resource "kubernetes_network_policy" "app" {
+  metadata {
+    name = "currenttime-flask-api-network-policy"
+  }
+
+  spec {
+    pod_selector {
+      match_labels = {
+        app = kubernetes_deployment.app.metadata[0].labels.app
+      }
+    }
+
+    policy_types = ["Ingress", "Egress"]
+
+    ingress {
+      ports {
+        port = 80
+        protocol = "TCP"
+      }
+    }
   }
 }
 

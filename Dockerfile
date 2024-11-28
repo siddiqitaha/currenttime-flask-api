@@ -5,13 +5,13 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy current directory content into container
-COPY . .
+COPY ./app .
 
 # Install required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 80 available to the world outside this container
-EXPOSE 80
+EXPOSE 8080
 
 # Define the command to run the application
 CMD ["python", "app.py"]

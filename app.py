@@ -18,10 +18,16 @@ def get_time(region):
     timezone = pytz.timezone(timezone_name)
     current_time = datetime.now(timezone).strftime("%Y-%m-%d %H:%M:%S")
     return jsonify({
-        "message": "Automate All The Things:" f"Current time in {region.capitalize()}",
+        "message": f"Automate All The Things: Current time in {region.capitalize()}",
         "current_time": current_time
     })
 
+@currenttime_app.route("/health", methods=["GET"])
+def health():
+    return jsonify({
+        "status": "healthy",
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    })
 
 if __name__ == "__main__":
-    currenttime_app.run(host="0.0.0.0", port=80)
+    currenttime_app.run(host="0.0.0.0", port=8080)
